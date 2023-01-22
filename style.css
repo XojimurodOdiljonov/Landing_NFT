@@ -1,0 +1,22 @@
+body {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 76px;
+    background: #ffff;
+    border-bottom: 0.6px solid #F8E0FB;
+    display: flex;
+}
+
+header img {
+    width: 151px;
+    height: 40px;
+    margin: 18px auto;
+}
