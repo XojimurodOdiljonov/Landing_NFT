@@ -46,6 +46,8 @@ header img {
     display: flex;
     flex-flow: column;
     position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .section__sellNft h1{
@@ -100,3 +102,36 @@ header img {
     filter: blur(116px);
     z-index: -1;
 }
+
+.section__sellNft img{
+    position: absolute;
+}
+
+.sellNft__img1 {
+    width: 173px;
+    height: 174px;
+    top: 5px;
+    left: 53px;
+}
+
+.sellNft__img2 {
+    top: 67px;
+    right: 167px;
+    width: 111px;
+    height: 112px;
+}
+
+.sellNft__img3{
+    width: 299px;
+    height: 300px; 
+    left: -16px;
+    top: 298px; 
+}
+
+.sellNft__img4{
+    width: 211px;
+    height: 211px;
+    right: 33px;
+    top: 387px;
+}
+
