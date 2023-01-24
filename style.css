@@ -8,6 +8,29 @@ body {
     box-sizing: border-box;
 }
 
+.nft__h2{
+    font-family: 'Syne';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 24px;
+}
+
+.nft__h3{
+    font-family: 'Space Grotesk';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #532C59;
+    margin: 0;
+    padding-bottom: 80px;
+}
+
+/* header */
+
 header {
     width: 100%;
     height: 76px;
@@ -162,27 +185,6 @@ header img {
     margin-top: 80px;
 }
 
-.section__team h2{
-    font-family: 'Syne';
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 64px;
-    text-align: center;
-    color: #000000;
-    margin-bottom: 24px;
-}
-
-.section__team h3{
-    font-family: 'Space Grotesk';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    color: #532C59;
-    margin: 0;
-    padding-bottom: 80px;
-}
-
 .wrapper{
     display: flex;
     justify-content: space-between;
@@ -217,4 +219,48 @@ header img {
     line-height: 20px;
     text-align: center;
     color: #532C59;
+}
+
+/* section__collection */
+
+.section__collections{
+    display: flex;
+    flex-flow: column;
+    margin: 0 auto;
+}
+
+.section__collections .wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.collection__wrapper{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 412px;
+    margin: 0 16px;
+    margin-bottom: 64px;
+}
+
+.collection__wrapper p{
+    font-family: 'Syne';
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+    padding-bottom: 12px;
+    margin-top: 16px;
+}
+
+.collection__wrapper span{
+    font-family: 'Space Grotesk';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #532C59; 
 }
