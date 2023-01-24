@@ -135,3 +135,21 @@ header img {
     top: 387px;
 }
 
+/* section__partners */
+
+.section__partners{
+    display: flex;
+    justify-content: center;
+    padding: 40px 170px;
+    margin: 0 auto;
+    margin-top: 101px;
+    max-width: 1440px;
+}
+
+.section__partners img{
+    margin-right: 40px;
+}
+
+.section__partners img:last-child{
+    margin-right: 0px;    
+}
