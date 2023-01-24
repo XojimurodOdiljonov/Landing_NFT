@@ -153,3 +153,68 @@ header img {
 .section__partners img:last-child{
     margin-right: 0px;    
 }
+
+/* section__team */
+
+.section__team{
+    display: flex;
+    flex-flow: column;
+    margin-top: 80px;
+}
+
+.section__team h2{
+    font-family: 'Syne';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 24px;
+}
+
+.section__team h3{
+    font-family: 'Space Grotesk';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #532C59;
+    margin: 0;
+    padding-bottom: 80px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-bottom: 160px;
+}
+
+.team__wrapper{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 0px 100px;
+}
+
+.team__wrapper p{
+    font-family: 'Space Grotesk';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #000000;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    white-space: nowrap;
+}
+
+.team__wrapper span{
+    font-family: 'Space Grotesk';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #532C59;
+}
