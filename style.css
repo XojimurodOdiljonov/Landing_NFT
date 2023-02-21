@@ -83,6 +83,7 @@ header img {
     margin: 0 auto;
 }
 
+
 .section__sellNft p {
     font-weight: 400;
     font-size: 16px;
@@ -121,7 +122,7 @@ header img {
     top: 57px;
     background: radial-gradient(50% 50% at 50% 50%, #E36CE6 0%, rgba(255, 255, 255, 0) 100%);
     opacity: 0.4;
-    filter: blur(116px);
+    filter: blur(116px);        
     z-index: -1;
 }
 
@@ -329,10 +330,6 @@ header img {
     margin-right: 32px;
 }
 
-.section__qanda .wrapper2{
-    
-}
-
 .section__qanda h2 {
     font-family: 'Syne';
     font-weight: 600;
@@ -392,4 +389,78 @@ header img {
     right: 24px;
     top: 24px;
     cursor: pointer;
-}   
+}  
+
+/* section ready */
+
+.section__ready {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1440px;
+    margin-top: 90px;
+    margin-bottom: 160px;
+}
+
+.ready__wrapper {
+    background: #FCFAFF;
+    border: 1px solid #D6BCFA;
+    box-shadow: inset 0px 0px 50px #F8E0FA;
+    border-radius: 60px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 1300px;
+    height: 446px;
+    position: relative;
+}
+
+.ready__wrapper h2 {
+    font-family: 'Syne';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.ready__wrapper h3 {
+    font-family: 'Space Grotesk';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #532C59;
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+.ready__wrapper button {
+    font-family: 'Syne';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: #532C59;
+    border-radius: 15px;
+    outline: none;
+    padding: 16px 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.ready__wrapper img {
+    position: absolute;
+}
+
+.ready__wrapper img:first-child {
+    left: 0;
+}
+
+.ready__wrapper img:nth-child(2) {
+    right: 0;
+}
